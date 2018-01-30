@@ -24,6 +24,8 @@ public class Log4JStarter {
 
 	public void start() {
 		List<String> arrays = Arrays.asList("1,3,6,10,15");
+		for (int i=0;i<99;i++) {
 		log.debug("logging sample -> {}", arrays);
+		}
 	}
 }
